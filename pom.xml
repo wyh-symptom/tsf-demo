@@ -17,6 +17,7 @@
 
     <modules>
         <module>provider-demo</module>
+        <module>consumer-demo</module>
     </modules>
 
     <properties>
@@ -31,16 +32,10 @@
             <groupId>com.tencent.tsf</groupId>
             <artifactId>spring-cloud-tsf-starter</artifactId>
         </dependency>
-
     </dependencies>
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
