@@ -8,9 +8,9 @@
         <version>1.0-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.xiaolyuh.tsf.provider</groupId>
+
     <artifactId>provider-demo</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
     <name>provider-demo</name>
     <description>服务提供者</description>
 
